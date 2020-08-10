@@ -1,8 +1,5 @@
 # Write your solution here
 
-run_code_inside = true
-puts "Code before if...end"
-if run_code_inside
-  puts "code inside"
-end
-puts "Code after if...end"
+current_time = Time.now.to
+
+is_even = current_time % 2 == 0 ? true : false 
