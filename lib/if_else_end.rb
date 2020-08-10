@@ -4,4 +4,4 @@
 
 is_even = Time.now.to_i % 2 == 0 ? true : false 
 
-puts is
+puts is_even.to_s
